@@ -11,14 +11,17 @@ def get_pdf(pdf_url,path):
     with open(path,'wb+') as f:
         f.write(response.content)
 
-def get_pdf_name(pdf_url,name):
-    get_pdf(pdf_url,"Matrix_Computition//" + name)
-    #上传git
-    od_arr = ["git add .",'git commit -m "'+name+'"',"git push"]
+def git_push(commit):
+    od_arr = ["git add .",'git commit -m "'+commit+'"',"git push"]
     for od in od_arr:
         system(od)
 
+def get_pdf_name(pdf_url,name):
+    get_pdf(pdf_url,"Matrix_Computition//" + name)
+    #上传git
+    git_push(name)
 
-get_pdf_name("https://arxiv.org/pdf/2211.05807.pdf","3.pdf")
+
+get_pdf_name("https://arxiv.org/pdf/2211.05807.pdf","4.pdf")
 
 
