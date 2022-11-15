@@ -12,6 +12,10 @@ def run_process(wx,who):
     #分割
     msg_split = msg.split()
     get_pdf_file.get_pdf_name(str(msg_split[0]),str(msg_split[1]))
+    wx.ChatWith(who)
+    reply = r'https://fr0zenwatter.github.io/My_pdf/Matrix_Computition/'+str(name)+r'.pdf'
+    wx.SendMsg(reply)
+    
 
 
 wx = WeChat()
