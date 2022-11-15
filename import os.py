@@ -17,11 +17,12 @@ def git_push(commit):
         system(od)
 
 def get_pdf_name(pdf_url,name):
-    get_pdf(pdf_url,"Matrix_Computition//" + name)
+    get_pdf(pdf_url,"Matrix_Computition//" + str(name)+".pdf")
     #上传git
     git_push(name)
 
 
-get_pdf_name("https://arxiv.org/pdf/2211.05807.pdf","4.pdf")
+get_pdf_name("https://arxiv.org/pdf/2211.05807.pdf","5")
+
 
 
