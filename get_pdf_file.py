@@ -22,7 +22,10 @@ def get_pdf_name(pdf_url,name):
     git_push(name)
 
 
-get_pdf_name("https://arxiv.org/pdf/2211.05807.pdf","5")
+
+#get_pdf_name("https://arxiv.org/pdf/2211.05807.pdf","5")
+
+
 
 
 
