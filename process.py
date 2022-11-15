@@ -13,7 +13,7 @@ def run_process(wx,who):
     msg_split = msg.split()
     get_pdf_file.get_pdf_name(str(msg_split[0]),str(msg_split[1]))
     wx.ChatWith(who)
-    reply = r'https://fr0zenwatter.github.io/My_pdf/Matrix_Computition/'+str(name)+r'.pdf'
+    reply = 'https://fr0zenwatter.github.io/My_pdf/Matrix_Computition/'+str(name)+'.pdf'
     wx.SendMsg(reply)
     
 

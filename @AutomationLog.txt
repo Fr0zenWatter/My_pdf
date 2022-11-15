@@ -9,3 +9,6 @@
 2022-11-15 16:14:06.388 wxauto.py[48] SplitMessage -> 2022-11-15 16:14:49.320 wxauto.py[48] SplitMessage -> 2022-11-15 16:20:12.868 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
 2022-11-15 16:20:13.025 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
 2022-11-15 16:20:13.243 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2022-11-15 16:27:48.048 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2022-11-15 16:27:48.211 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
+2022-11-15 16:27:48.428 wxauto.py[48] SplitMessage -> Find Control Timeout(0s): {ControlType: ButtonControl}
